@@ -101,7 +101,7 @@ Avoids recounting objects unless it fully disappears and reappears (intelligent 
 | `object_count.xlsx`       | Stores total object counts per class     |
 | `frame_YYYYMMDD_HHMM.jpg` | Saved frames manually by the user        |
 
-## 🛠 Advantages Over Basic Detection Scripts
+## Advantages Over Basic Detection Scripts
 
 | Feature             | Others                        | RealVision                        |
 |---------------------|-------------------------------|------------------------------------|
