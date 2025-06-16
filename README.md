@@ -1,4 +1,4 @@
-# 🎯 RealVision: Smart Object Detection & Notification System
+#  RealVision: Smart Object Detection & Notification System
 
 **RealVision** is a powerful desktop-based object detection system built with **YOLOv8**, **Tkinter**, and **OpenCV**, designed to track, log, notify, and count objects in real time from:
 - Live camera input
@@ -14,21 +14,21 @@ It not only detects objects but also:
 
 ---
 
-## 🧠 Features
+## Features
 
 | Feature                             | Description                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------|
-| 🎯 YOLOv8 Object Detection          | Real-time detection with bounding boxes and confidence scores              |
-| 🔔 Smart Desktop Notifications      | Sends alerts for selected objects (e.g., person, bicycle, car)             |
-| 📊 Excel Logging                    | Logs every detection with timestamp and unique ID                          |
-| 🔁 Intelligent Object Tracking      | Detects when object leaves & reappears — no duplicate counting             |
-| 💾 Save Frame Button                | Saves the current annotated frame manually                                 |
-| 📹 Video & Image Support            | Works with webcam or uploaded MP4 files                                    |
-| 🖼 GUI Built with Tkinter           | Easy-to-use graphical interface                                            |
+|  YOLOv8 Object Detection          | Real-time detection with bounding boxes and confidence scores              |
+|  Smart Desktop Notifications      | Sends alerts for selected objects (e.g., person, bicycle, car)             |
+|  Excel Logging                    | Logs every detection with timestamp and unique ID                          |
+|  Intelligent Object Tracking      | Detects when object leaves & reappears — no duplicate counting             |
+|  Save Frame Button                | Saves the current annotated frame manually                                 |
+|  Video & Image Support            | Works with webcam or uploaded MP4 files                                    |
+|  GUI Built with Tkinter           | Easy-to-use graphical interface                                            |
 
 ---
 
-## 🚀 Technologies Used
+##  Technologies Used
 
 - Python 3.x
 - OpenCV
@@ -40,16 +40,16 @@ It not only detects objects but also:
 
 ---
 
-## 🔧 Installation Instructions
+##  Installation Instructions
 
-### 🛠 Prerequisites
+###  Prerequisites
 
 - Python 3.7+
 - pip
 
 ---
 
-### 📥 Step-by-Step Setup
+###  Step-by-Step Setup
 
 ```bash
 # Step 1: Clone the repository
@@ -105,11 +105,11 @@ Avoids recounting objects unless it fully disappears and reappears (intelligent 
 
 | Feature             | Others                        | RealVision                        |
 |---------------------|-------------------------------|------------------------------------|
-| 🛎️ Notification Alerts | ❌ No                         | ✅ Yes                             |
-| 📊 Excel Logging      | ❌ Manual                     | ✅ Automatic                       |
-| 🧠 Object Memory       | ❌ Duplicates on re-entry     | ✅ Tracks & avoids duplicates      |
-| 🖥️ GUI Interface       | ❌ None (only terminal)        | ✅ Tkinter-based live GUI          |
-| 💾 Frame Saving       | ❌ Manual only                | ✅ Button-based frame saving       |
+|  Notification Alerts |  No                         |  Yes                             |
+|  Excel Logging      |  Manual                     |  Automatic                       |
+|  Object Memory       | Duplicates on re-entry     |  Tracks & avoids duplicates      |
+|  GUI Interface       |  None (only terminal)        |  Tkinter-based live GUI          |
+|  Frame Saving       |  Manual only                |  Button-based frame saving       |
 
 ## License
 This project is licensed under the MIT License.
